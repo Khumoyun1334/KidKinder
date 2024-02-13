@@ -68,3 +68,12 @@
 .show {
   display: block;
 }
+
+.but {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  border-radius: 30px;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+}

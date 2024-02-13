@@ -1,15 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Logo from "../../../public/assets/img/logo.png";
 
 function Navbar() {
   return (
-    <div>
-      <div className="flex justify-between items-center">
+    <div className="bg-[#F8F9FA]">
+      <div className="flex justify-between items-center w-[85%] m-auto">
         <div>
+          <div>
+            <img src={Logo} alt="" />
+          </div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
           </div>
-          <div></div>
         </div>
         <div className="flex gap-[30px]">
           <NavLink
@@ -86,7 +89,9 @@ function Navbar() {
             Contact
           </NavLink>
         </div>
-        <div></div>
+        <div>
+          <button className="but px-7 p-2">Join Class</button>
+        </div>
       </div>
     </div>
   );
