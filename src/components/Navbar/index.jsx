@@ -1,15 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../../public/assets/img/logo.png";
+// import Logo from "../../../public/assets/img/logo.png";
 
 function Navbar() {
   return (
     <div className="bg-[#F8F9FA]">
       <div className="flex justify-between items-center w-[85%] m-auto">
         <div>
-          <div>
-            <img src={Logo} alt="" />
-          </div>
+          <div>{/* <img src={Logo} alt="" /> */}</div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
           </div>
