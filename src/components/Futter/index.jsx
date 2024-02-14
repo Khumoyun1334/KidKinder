@@ -1,8 +1,8 @@
-import { BiChevronRight } from "react-icons/bi";
-import { MdLocationPin } from "react-icons/md";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { MdEmail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa6";
+// import { BiChevronRight } from "react-icons/bi";
+// import { MdLocationPin } from "react-icons/md";
+// import { AiOutlineTwitter } from "react-icons/ai";
+// import { MdEmail } from "react-icons/md";
+// import { FaPhone } from "react-icons/fa6";
 import React from "react";
 
 function Futter() {
@@ -32,25 +32,25 @@ function Futter() {
               style={{ transition: "all .3s" }}
               className="w-[40px] flex hover:text-white hover:bg-[#17A2B8] justify-center text-[20px]  items-center h-[40px] text-[#17A2B8] border border-[#17A2B8] rounded-[360px]"
             >
-              <AiOutlineTwitter />
+              {/* <AiOutlineTwitter /> */}
             </button>
             <button
               style={{ transition: "all .3s" }}
               className="w-[40px] flex hover:text-white hover:bg-[#17A2B8] justify-center text-[20px]  items-center h-[40px] text-[#17A2B8] border border-[#17A2B8] rounded-[360px]"
             >
-              <AiOutlineTwitter />
+              {/* <AiOutlineTwitter /> */}
             </button>
             <button
               style={{ transition: "all .3s" }}
               className="w-[40px] flex hover:text-white hover:bg-[#17A2B8] justify-center text-[20px]  items-center h-[40px] text-[#17A2B8] border border-[#17A2B8] rounded-[360px]"
             >
-              <AiOutlineTwitter />
+              {/* <AiOutlineTwitter /> */}
             </button>
             <button
               style={{ transition: "all .3s" }}
               className="w-[40px] flex hover:text-white hover:bg-[#17A2B8] justify-center text-[20px]  items-center h-[40px] text-[#17A2B8] border border-[#17A2B8] rounded-[360px]"
             >
-              <AiOutlineTwitter />
+              {/* <AiOutlineTwitter /> */}
             </button>
           </div>
         </div>
@@ -60,7 +60,7 @@ function Futter() {
           </div>
           <div className="flex gap-3 mt-4">
             <div>
-              <MdLocationPin color="#17A2B8" fontSize={"30px"} />
+              {/* <MdLocationPin color="#17A2B8" fontSize={"30px"} /> */}
             </div>
             <div>
               <p className="futtetx">Address</p>
@@ -71,7 +71,7 @@ function Futter() {
           </div>
           <div className="flex gap-3 mt-4">
             <div>
-              <MdEmail color="#17A2B8" fontSize={"30px"} />
+              {/* <MdEmail color="#17A2B8" fontSize={"30px"} /> */}
             </div>
             <div>
               <p className="futtetx">Email</p>
@@ -80,7 +80,7 @@ function Futter() {
           </div>
           <div className="flex gap-3 mt-4">
             <div>
-              <FaPhone color="#17A2B8" fontSize={"30px"} />
+              {/* <FaPhone color="#17A2B8" fontSize={"30px"} /> */}
             </div>
             <div>
               <p className="futtetx">Phone</p>
@@ -94,27 +94,27 @@ function Futter() {
           </div>
           <div className="flex flex-col gap-2.5 mt-4">
             <div className="flex text-white text-[16px]">
-              <BiChevronRight fontSize={"25px"} />
+              {/* <BiChevronRight fontSize={"25px"} /> */}
               <p className="Nun">Home</p>
             </div>
             <div className="flex text-white text-[16px]">
-              <BiChevronRight fontSize={"25px"} />
+              {/* <BiChevronRight fontSize={"25px"} /> */}
               <p className="Nun">About Us</p>
             </div>
             <div className="flex text-white text-[16px]">
-              <BiChevronRight fontSize={"25px"} />
+              {/* <BiChevronRight fontSize={"25px"} /> */}
               <p className="Nun">Our Clasess</p>
             </div>
             <div className="flex text-white text-[16px]">
-              <BiChevronRight fontSize={"25px"} />
+              {/* <BiChevronRight fontSize={"25px"} /> */}
               <p className="Nun">Our Teachers</p>
             </div>
             <div className="flex text-white text-[16px]">
-              <BiChevronRight fontSize={"25px"} />
+              {/* <BiChevronRight fontSize={"25px"} /> */}
               <p className="Nun">Our Blog</p>
             </div>
             <div className="flex text-white text-[16px]">
-              <BiChevronRight fontSize={"25px"} />
+              {/* <BiChevronRight fontSize={"25px"} /> */}
               <p className="Nun">Contact Us</p>
             </div>
           </div>

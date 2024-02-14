@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaTimes } from "react-icons/fa";
-import { AiOutlineMenu } from "react-icons/ai";
+// import { FaTimes } from "react-icons/fa";
+// import { AiOutlineMenu } from "react-icons/ai";
 
 // import Logo from "../../../public/assets/img/logo.png";
 
@@ -120,11 +120,11 @@ function Navbar() {
             setMenu(!menu);
           }}
         >
-          {menu ? (
+          {/* {menu ? (
             <FaTimes color="#7C7C7D" fontSize={"30px"} />
           ) : (
             <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
-          )}
+          )} */}
         </button>
       </div>
       <div
