@@ -125,6 +125,29 @@
     display: block;
   }
 }
-.shadoww{
+.shadoww {
   box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.075);
+}
+.anime {
+  animation: action 1s infinite alternate;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: action;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  border-radius: 70px;
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
 }
