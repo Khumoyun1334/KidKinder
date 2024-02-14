@@ -1,15 +1,18 @@
 import React from "react";
-import Card from "../../components/ThreeCards/card";
 import ThreeCards from "../../components/ThreeCards";
 import Form from "../../components/Form";
+import Bannerteal from "../../components/Banner";
 
 function Clasess() {
   return (
     <div>
       <div className="py-20">
-        <ThreeCards />
-        <br />
-        <Form />
+        <div>
+          <Bannerteal title="Classes" />
+          <ThreeCards />
+          <br />
+          <Form />
+        </div>
       </div>
     </div>
   );

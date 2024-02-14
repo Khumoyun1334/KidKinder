@@ -19,13 +19,12 @@ function Navbar() {
   const handleNext2 = () => {
     navigate2("/blogdetail");
   };
-
   return (
     <div className="bg-[#F8F9FA] nav">
       <div className="lg:flex hidden justify-between items-center xl:w-[90%] py-2 lg:w-[95%] m-auto">
-        <div className="flex items-center md:gap-4 gap-2">
+        <div className="flex items-center gap-4">
           <div>
-            <img className="lg:h-[55px] " src="" alt="" />
+            <img className="h-[55px]" src="assets/img/loogo.png" alt="" />
           </div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
@@ -92,9 +91,9 @@ function Navbar() {
           >
             Gallary
           </NavLink>
-          <div class="dropdown  ">
-            <button class="dropbtn ">Pages</button>
-            <div class="dropdown-content ml-[-15px]">
+          <div class="dropdown">
+            <button class="dropbtn  ">Pages</button>
+            <div class="dropdown-content  ml-[-15px]">
               <a onClick={() => handleNext()} href="#">
                 Blog Grid
               </a>
@@ -120,12 +119,12 @@ function Navbar() {
           <button className="but px-7 p-2">Join Class</button>
         </div>
       </div>
-      <div className=" lg:hidden items-center px-4 py-3 flex Menu justify-between">
-        <div className="flex gap-3 items-center">
+      <div className=" lg:hidden items-center md:px-5 px-2 py-3 flex Menu justify-between">
+        <div className="flex items-center gap-4">
           <div>
-            <img className="h-[55px]" src="assets/img/logo.png" alt="" />
+            <img className="h-[55px]" src="assets/img/loogo.png" alt="" />
           </div>
-          <div className=" ">
+          <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
           </div>
         </div>
@@ -137,7 +136,7 @@ function Navbar() {
           }}
         >
           {menu ? (
-            <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
+            <FaTimes color="#7C7C7D" fontSize={"30px"} />
           ) : (
             <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
           )}
