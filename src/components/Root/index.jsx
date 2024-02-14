@@ -9,6 +9,7 @@ import Contact from "../../Pages/Contact";
 import BlogGrid from "../../Pages/BlogGrid";
 import BlogDetail from "../../Pages/BlogDetail";
 import Navbar from "../Navbar";
+import Futter from "../Futter";
 
 function Root() {
   return (
@@ -31,6 +32,7 @@ function Root() {
 
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Futter />
     </div>
   );
 }
