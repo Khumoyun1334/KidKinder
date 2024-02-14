@@ -1,7 +1,7 @@
 import React from "react";
+import ThreeCards from "../../components/ThreeCards";
+import Form from "../../components/Form";
 import Header from "../../components/Header";
-import CardFlex from "../../components/CardFlex";
-import GridCards from "../../components/GridCards";
 
 function Home() {
   return (
