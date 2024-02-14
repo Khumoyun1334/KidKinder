@@ -145,6 +145,18 @@
   color: #00394f;
 }
 
+.data {
+  font-family: "Handlee", cursive;
+  color: #00394f;
+  font-weight: 700;
+  text-align: center;
+}
+
+.salom {
+  font-family: "Nunito", sans-serif;
+  color: #00394f;
+}
+
 @media screen and (max-width: 375px) {
   .Menu {
     display: flex;
