@@ -83,9 +83,40 @@
   z-index: -1;
 }
 
+.futt {
+  font-family: "Handlee", cursive;
+  color: #17a2b8 !important;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.futtetx {
+  font-family: "Handlee", cursive;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.futter {
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.Nun {
+  font-family: "Nunito", sans-serif;
+}
+
+.Fut {
+  font-family: "Nunito", sans-serif;
+}
+
 @media screen and (max-width: 375px) {
   .Menu {
     display: flex;
+  }
+
+  .Menu {
+    margin-inline: 10px;
   }
 }
 
