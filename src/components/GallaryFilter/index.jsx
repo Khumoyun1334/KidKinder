@@ -63,7 +63,7 @@ function GallaryFilter() {
                 setFillter("Html");
               }}
             >
-              Play
+              Playing
             </button>
             <button
               style={{
