@@ -25,7 +25,7 @@ function Navbar() {
       <div className="lg:flex hidden justify-between items-center xl:w-[90%] py-2 lg:w-[95%] m-auto">
         <div className="flex items-center md:gap-4 gap-2">
           <div>
-            <img className="lg:h-[55px] " src="assets/img/logo.png" alt="" />
+            <img className="lg:h-[55px] " src="" alt="" />
           </div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
