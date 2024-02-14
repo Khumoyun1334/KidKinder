@@ -1,0 +1,26 @@
+@media screen and (max-width: 320px) {
+  .text {
+    width: 230px;
+    margin-left: 230px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .img {
+    height: 170px !important;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 426px) {
+  .card {
+    margin-left: -40px !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .Cards {
+    width: 690px !important;
+  }
+  .img {
+    height: 400px;
+  }
+}
