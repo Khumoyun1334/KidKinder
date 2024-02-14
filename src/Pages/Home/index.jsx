@@ -1,15 +1,17 @@
 import React from "react";
-import ThreeCards from "../../components/ThreeCards";
-import Form from "../../components/Form";
 import Header from "../../components/Header";
+import GridCards from "../../components/GridCards";
+import CardFlex from "../../components/CardFlex";
+import ThreeCards from "../../components/ThreeCards";
 
 function Home() {
   return (
     <div>
       <div>
         <Header />
-        <GridCards/>
-        <CardFlex/>
+        <GridCards />
+        <CardFlex />
+        <ThreeCards />
       </div>
     </div>
   );
