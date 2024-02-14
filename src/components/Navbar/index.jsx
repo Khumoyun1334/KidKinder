@@ -11,9 +11,9 @@ function Navbar() {
   return (
     <div className="bg-[#F8F9FA] nav">
       <div className="lg:flex hidden justify-between items-center xl:w-[90%] py-2 lg:w-[95%] m-auto">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center md:gap-4 gap-2">
           <div>
-            <img className="h-[55px]" src="assets/img/logo.png" alt="" />
+            <img className="lg:h-[55px] " src="assets/img/logo.png" alt="" />
           </div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
@@ -104,7 +104,7 @@ function Navbar() {
           <button className="but px-7 p-2">Join Class</button>
         </div>
       </div>
-      <div className=" lg:hidden items-center px-5 py-3 flex Menu justify-between">
+      <div className=" lg:hidden items-center px-4 py-3 flex Menu justify-between">
         <div className="flex gap-3 items-center">
           <div>
             <img className="h-[55px]" src="assets/img/logo.png" alt="" />
@@ -121,7 +121,7 @@ function Navbar() {
           }}
         >
           {menu ? (
-            <FaTimes color="#7C7C7D" fontSize={"30px"} />
+            <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
           ) : (
             <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
           )}
