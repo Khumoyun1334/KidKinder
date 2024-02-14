@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 
@@ -8,6 +8,18 @@ import { AiOutlineMenu } from "react-icons/ai";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+
+  const navigate = useNavigate(false);
+  const navigate2 = useNavigate(false);
+
+  const handleNext = () => {
+    navigate("/bloggrid");
+  };
+
+  const handleNext2 = () => {
+    navigate2("/blogdetail");
+  };
+
   return (
     <div className="bg-[#F8F9FA] nav">
       <div className="lg:flex hidden justify-between items-center xl:w-[90%] py-2 lg:w-[95%] m-auto">
@@ -80,11 +92,15 @@ function Navbar() {
           >
             Gallary
           </NavLink>
-          <div class="dropdown">
-            <button class="dropbtn  ">Pages</button>
-            <div class="dropdown-content mt-8 ml-[-15px]">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+          <div class="dropdown  ">
+            <button class="dropbtn ">Pages</button>
+            <div class="dropdown-content ml-[-15px]">
+              <a onClick={() => handleNext()} href="#">
+                Blog Grid
+              </a>
+              <a onClick={() => handleNext2()} href="#">
+                Blog Detail
+              </a>
             </div>
           </div>
           <NavLink
