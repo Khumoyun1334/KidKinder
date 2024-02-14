@@ -227,7 +227,7 @@ function Navbar() {
         >
           Contact
         </NavLink>
-        <div>
+        <div className="hello world">
           <button className="but px-7 p-2">Join Class</button>
         </div>
       </div>
