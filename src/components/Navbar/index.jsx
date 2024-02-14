@@ -206,7 +206,7 @@ function Navbar() {
           }
           to={"/gallery"}
         >
-          Gallary
+          Gallery
         </NavLink>
         <div class="dropdown">
           <button class="dropbtn  ">Pages</button>
