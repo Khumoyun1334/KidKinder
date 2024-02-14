@@ -1,23 +1,18 @@
 import React from "react";
-<<<<<<< HEAD
-import ThreeCards from "../../components/ThreeCards";
-import Form from "../../components/Form";
-=======
 import Header from "../../components/Header";
->>>>>>> 46988967793b9e79035606af52402f9f93001200
+import GridCards from "../../components/GridCards";
+import CardFlex from "../../components/CardFlex";
+import ThreeCards from "../../components/ThreeCards";
 
 function Home() {
   return (
     <div>
-<<<<<<< HEAD
-      <ThreeCards />
-      <br />
-      <Form />
-=======
       <div>
         <Header />
+        <GridCards />
+        <CardFlex />
+        <ThreeCards />
       </div>
->>>>>>> 46988967793b9e79035606af52402f9f93001200
     </div>
   );
 }

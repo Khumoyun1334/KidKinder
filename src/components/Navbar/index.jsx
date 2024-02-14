@@ -1,31 +1,19 @@
 import React, { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
-import { FaTimes } from "react-icons/fa";
-import { AiOutlineMenu } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
+// import { FaTimes } from "react-icons/fa";
+// import { AiOutlineMenu } from "react-icons/ai";
 
 // import Logo from "../../../public/assets/img/logo.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
-
-  const navigate = useNavigate(false);
-  const navigate2 = useNavigate(false);
-
-  const handleNext = () => {
-    navigate("/bloggrid");
-  };
-
-  const handleNext2 = () => {
-    navigate2("/blogdetail");
-  };
-
   return (
     <div className="bg-[#F8F9FA] nav">
       <div className="lg:flex hidden justify-between items-center xl:w-[90%] py-2 lg:w-[95%] m-auto">
-        <div className="flex items-center md:gap-4 gap-2">
+        <div className="flex items-center gap-4">
           <div>
-            <img className="lg:h-[55px] " src="assets/img/logo.png" alt="" />
+            <img className="h-[55px]" src="assets/logo.png" alt="" />
           </div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
@@ -92,15 +80,11 @@ function Navbar() {
           >
             Gallary
           </NavLink>
-          <div class="dropdown  ">
-            <button class="dropbtn ">Pages</button>
-            <div class="dropdown-content ml-[-15px]">
-              <a onClick={() => handleNext()} href="#">
-                Blog Grid
-              </a>
-              <a onClick={() => handleNext2()} href="#">
-                Blog Detail
-              </a>
+          <div class="dropdown">
+            <button class="dropbtn  ">Pages</button>
+            <div class="dropdown-content mt-8 ml-[-15px]">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
             </div>
           </div>
           <NavLink
@@ -120,7 +104,7 @@ function Navbar() {
           <button className="but px-7 p-2">Join Class</button>
         </div>
       </div>
-      <div className=" lg:hidden items-center px-4 py-3 flex Menu justify-between">
+      <div className=" lg:hidden items-center px-5 py-3 flex Menu justify-between">
         <div className="flex gap-3 items-center">
           <div>
             <img className="h-[55px]" src="assets/img/logo.png" alt="" />
@@ -136,11 +120,11 @@ function Navbar() {
             setMenu(!menu);
           }}
         >
-          {menu ? (
-            <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
+          {/* {menu ? (
+            <FaTimes color="#7C7C7D" fontSize={"30px"} />
           ) : (
             <AiOutlineMenu color="#7C7C7D" fontSize={"30px"} />
-          )}
+          )} */}
         </button>
       </div>
       <div
