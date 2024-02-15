@@ -1,7 +1,4 @@
-// import { AiOutlineMinus } from "react-icons/ai";
-
 import React from "react";
-
 function Text() {
   return (
     <div className="flex justify-center">
@@ -21,5 +18,4 @@ function Text() {
     </div>
   );
 }
-
 export default Text;

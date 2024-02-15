@@ -4,7 +4,7 @@ import Inputs from "./input";
 
 function Form() {
   return (
-    <div className="grid overflow-hidden lg:justify-items-center justify-items-center pl-10 grid-cols-1 lg:grid-cols-2 xl:mx-44">
+    <div className="grid overflow-hidden lg:justify-items-center ml-0 md:ml-0 justify-items-center pl-10 grid-cols-1 lg:grid-cols-2 xl:mx-44">
       <div>
         <div className="-ml-4 md:ml-0 lg:ml-0">
           <h4 className="flex items-center text-[#17a2b8]">
