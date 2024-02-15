@@ -4,6 +4,7 @@ import BlogCard from "../../components/BlogCard";
 function BlogGrid() {
   return (
     <div>
+      <div></div>
       <div>
         <BlogCard />
       </div>

@@ -45,7 +45,7 @@ export default function TeachearCarousel() {
         className="mySwiper h-[330px] "
       >
         <div>
-          <div className="flex flex-col items-center mt-[110px] justify-center">
+          <div className="flex flex-col items-center mt-[110px] justify-center ">
             <div className="flex gap-[0.7em] items-center justify-center">
               <p className="w-[50px] h-[2px] bg-[red]"></p>
               <p className="nunito text-[1em] tracking-wider">TESTIMONIAL</p>

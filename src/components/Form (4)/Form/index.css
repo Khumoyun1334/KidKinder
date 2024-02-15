@@ -2,11 +2,14 @@
   .width {
     margin-left: 35px !important;
     width: 380px;
+    margin-left: -20px !important;
+    width: 300px;
   }
 }
 @media screen and (max-width: 376px) {
   .width {
     margin-left: 32px !important;
+    margin-left: -9px !important;
     width: 350px !important;
   }
 }
@@ -15,5 +18,6 @@
     margin-inline: 50px !important;
     width: 300px !important;
     margin-right: 50px;
+    margin-left: 10px;
   }
 }

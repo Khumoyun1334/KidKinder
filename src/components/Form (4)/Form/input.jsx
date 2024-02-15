@@ -3,8 +3,8 @@ import "./index.css";
 export default function Inputs() {
   return (
     <div className="width">
-      <div className="grid xl:w-[475px] w-[97%] -ml-16 lg:w-[420px] md:w-[680px] lg:ml-0 md:-ml-10  h-auto bg-[rgb(23,162,184)] rounded">
-        <div className="w-full xl:w-full md:w-full h-[96.8px] bg-[#00394f] rounded text-center flex items-center justify-center">
+      <div className="grid xl:w-[475px] w-[320px] ml-2 lg:w-[420px] md:w-[680px] lg:ml-0 md:-ml-10  h-auto bg-[rgb(23,162,184)] rounded">
+        <div className="w-[320px] xl:w-full h-[96.8px] bg-[#00394f] rounded text-center flex items-center justify-center">
           <h4 className="text-[#fff] text-[40px]">Book A Seat</h4>
         </div>
         <div className="grid justify-items-center py-10 gap-3">
@@ -22,7 +22,7 @@ export default function Inputs() {
               type="text"
               name=""
               id=""
-              className="xl:w-[349px] md:w-[570px] h-[48px] w-[164px] rounded pl-6"
+              className="xl:w-[349px] md:w-[260px] h-[48px] w-[164px] rounded pl-6"
               placeholder="Your email"
             />
           </div>
