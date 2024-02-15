@@ -17,8 +17,8 @@ function Card({ title }) {
         </div>
         <div className="border-b border-gray-400 pb-5 mb-5">
           <p className="text-center xl:w-[340px] text salom ml-2">
-            Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum
-            duo et no et, ipsum ipsum erat duo amet clita duo
+            Justo ea diam stet diam ipsum no sit, ipsum et et diam ipsum duo et
+            no et, ipsum ipsum erat duo amet clita duo
           </p>
         </div>
         <div className="grid grid-cols-2 justify-items-center md:px-2 xl:px-20 lg:px-0 px-56 text-start">
