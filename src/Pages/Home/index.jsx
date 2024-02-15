@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
 
-import Form from "../../components/Form";
 import GridCards from "../../components/GridCards";
 import CardFlex from "../../components/CardFlex";
 import HomeTeachers from "../../components/HomeTeachers";
@@ -23,7 +22,9 @@ function Home() {
           <Form />
         </div>
         <HomeTeachers />
-        <TeachearCarousel />
+        <div className="">
+          <TeachearCarousel />
+        </div>
         <div className="mt-[-100px]">
           <HomeCard />
         </div>
@@ -31,9 +32,7 @@ function Home() {
       <br />
       <div></div>
       <br />
-      <div>
-        <Form />
-      </div>
+      <div>{/* <Form /> */}</div>
     </div>
   );
 }

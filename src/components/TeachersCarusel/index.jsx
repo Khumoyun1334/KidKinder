@@ -15,6 +15,18 @@ import { Autoplay, Pagination } from "swiper/modules";
 export default function TeachearCarousel() {
   return (
     <>
+      <div className="flex flex-col items-center mt-[110px] justify-center ">
+        <div className="flex gap-[0.7em] items-center justify-center">
+          <p className="w-[50px] h-[2.5px] bg-[#17a2b8]"></p>
+          <p className="nunito text-[1em] text-[#17a2b8] text-red tracking-wider">
+            TESTIMONIAL
+          </p>
+          <p className="w-[50px] h-[2.5px] bg-[#17a2b8]"></p>
+        </div>
+        <p className="handlee text-[27px] text-[#00394f] md:text-[2.4em] pt-[10px]">
+          What Parents Say!
+        </p>
+      </div>
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
@@ -34,7 +46,7 @@ export default function TeachearCarousel() {
           },
           999: {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 20,
           },
         }}
         modules={[Pagination, Autoplay]}
@@ -44,23 +56,11 @@ export default function TeachearCarousel() {
         }}
         className="mySwiper h-[330px] "
       >
-        <div>
-          <div className="flex flex-col items-center mt-[110px] justify-center ">
-            <div className="flex gap-[0.7em] items-center justify-center">
-              <p className="w-[50px] h-[2px] bg-[red]"></p>
-              <p className="nunito text-[1em] tracking-wider">TESTIMONIAL</p>
-              <p className="w-[50px] h-[2px] bg-[red]"></p>
-            </div>
-            <p className="handlee text-[27px] md:text-[2.4em] pt-[10px]">
-              What Parents Say!
-            </p>
-          </div>
-        </div>
         <SwiperSlide className="SwiperSlide  mt-[40px] md:ml-[-27%]">
           <div className=" flex flex-col justify-center items-center">
-            <div className="rounded-[10px]  w-[100%] px-[8.1%] lg:px-[3.9%]  border py-[1.5em]">
+            <div className="rounded-[10px] bg-[#F8F9FA]  w-[100%] px-[8.1%] lg:px-[3.9%]   py-[1.5em]">
               <span className="inline-flex md:text-[1.5em] lg:text-[1.8em] text-[1.3em]">
-                <FaQuoteLeft />
+                <FaQuoteLeft color="#17A2B8" />
               </span>
               <span className="nunito text-[1em] pl-[1em] leading-[1.1] tracking-[0.010em]">
                 {" "}
@@ -85,9 +85,9 @@ export default function TeachearCarousel() {
         </SwiperSlide>
         <SwiperSlide className="SwiperSlide  mt-[40px]">
           <div className=" flex flex-col justify-center items-center">
-            <div className="rounded-[10px]  w-[100%] px-[8.1%] lg:px-[3.9%]  border py-[1.5em]">
+            <div className="rounded-[10px] bg-[#F8F9FA]  w-[100%] px-[8.1%] lg:px-[3.9%]   py-[1.5em]">
               <span className="inline-flex md:text-[1.5em] lg:text-[1.8em]  text-[1.3em]">
-                <FaQuoteLeft />
+                <FaQuoteLeft color="#17A2B8" />
               </span>
               <span className="nunito text-[1em] pl-[1em] leading-[1.1] tracking-[0.010em]">
                 {" "}
@@ -112,9 +112,9 @@ export default function TeachearCarousel() {
         </SwiperSlide>
         <SwiperSlide className="SwiperSlide mt-[40px]">
           <div className=" flex flex-col justify-center items-center">
-            <div className="rounded-[10px]  w-[100%] px-[8.1%] lg:px-[3.9%]  border py-[1.5em]">
+            <div className="rounded-[10px] bg-[#F8F9FA]  w-[100%] px-[8.1%] lg:px-[3.9%]   py-[1.5em]">
               <span className="inline-flex md:text-[1.5em] lg:text-[1.8em]  text-[1.3em]">
-                <FaQuoteLeft />
+                <FaQuoteLeft color="#17A2B8" />
               </span>
 
               <span className="nunito text-[1em] pl-[1em] leading-[1.1] tracking-[0.010em]">
@@ -140,9 +140,9 @@ export default function TeachearCarousel() {
         </SwiperSlide>
         <SwiperSlide className="SwiperSlide mt-[40px]">
           <div className=" flex flex-col justify-center items-center">
-            <div className="rounded-[10px]  w-[100%] px-[8.1%] lg:px-[3.9%]  border py-[1.5em]">
+            <div className="rounded-[10px] bg-[#F8F9FA]  w-[100%] px-[8.1%] lg:px-[3.9%]   py-[1.5em]">
               <span className="inline-flex md:text-[1.5em] lg:text-[1.8em]  text-[1.3em]">
-                <FaQuoteLeft />
+                <FaQuoteLeft color="#17A2B8" />
               </span>
               <span className="nunito text-[1em] pl-[1em] leading-[1.1] tracking-[0.010em]">
                 {" "}
@@ -167,9 +167,14 @@ export default function TeachearCarousel() {
         </SwiperSlide>
         <SwiperSlide className="SwiperSlide mt-[40px]">
           <div className=" flex flex-col justify-center items-center">
-            <div className="rounded-[10px]  w-[100%] px-[8.1%] lg:px-[3.9%]  border py-[1.5em]">
+            <div
+              style={{
+                boxShadow: "0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important",
+              }}
+              className="rounded-[10px] bg-[#F8F9FA]  w-[100%] px-[8.1%] lg:px-[3.9%]   py-[1.5em]"
+            >
               <span className="inline-flex md:text-[1.5em] lg:text-[1.8em]  text-[1.3em]">
-                <FaQuoteLeft />
+                <FaQuoteLeft color="#17A2B8" />
               </span>
               <span className="nunito text-[1em] pl-[1em] leading-[1.1] tracking-[0.010em]">
                 {" "}

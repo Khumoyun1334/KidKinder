@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .text {
     width: 230px;
     margin-left: 230px;
@@ -11,27 +11,24 @@
     background-size: cover;
   }
 }
-<<<<<<< HEAD
+
 @media screen and (max-width: 376px) {
   .img {
     height: 220px !important;
-    /* background-size: cover; */
+    background-size: cover;
   }
 }
-=======
->>>>>>> 43ba51ff42df290701d8aa432bfb10875e752189
+
 @media screen and (max-width: 426px) {
   .card {
     margin-left: -40px !important;
   }
-<<<<<<< HEAD
+
   .img {
     height: 270px !important;
     width: 100%;
     background-size: cover;
   }
-=======
->>>>>>> 43ba51ff42df290701d8aa432bfb10875e752189
 }
 @media screen and (max-width: 769px) {
   .Cards {
@@ -40,4 +37,4 @@
   .img {
     height: 400px;
   }
-}
+} */

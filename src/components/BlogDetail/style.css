@@ -1,0 +1,47 @@
+.handlee {
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+}
+
+.nunito {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.swiper-button-prev:after {
+    /* color: var(--swiper-navigation-color) !important; */
+    font-size: var(--swiper-navigation-size) !important;
+    scale: 0.25;
+    color: #00394F;
+}
+
+.swiper-button-next:after {
+    /* color: var(--swiper-navigation-color) !important; */
+    font-size: var(--swiper-navigation-size) !important;
+    scale: 0.25;
+    color: #00394F;
+}
+
+.swiper-button-prev {
+    margin: 20px;
+    /* transform: translateY(-5%); */
+    /* padding-left: -100px !important;
+    padding-right: -100px !important; */
+    /* padding: 40px; */
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    font-weight: bolder;
+    background-color: #17A2B8;
+}
+
+.swiper-button-next {
+    /* margin-left: -30px !important; */
+    /* transform: translateY(-5%);
+    padding-right: -100px !important; */
+    margin: 30px;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    font-weight: bolder;
+    background-color: #17A2B8;
+}
