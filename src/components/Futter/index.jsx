@@ -7,7 +7,7 @@ import React from "react";
 
 function Futter() {
   return (
-    <div className="bg-[#00394F] py-11">
+    <div className="bg-[#00394F] py-11 mt-32">
       <div className="lg:grid lg:grid-cols-4 lg:w-[93%]  md:w-[93%] w-[88%] m-auto md:m-auto gap-8  lg:m-auto md:grid md:grid-cols-2 grid grid-cols-1">
         <div>
           <div className="flex items-center xl:gap-4 gap-4 lg:gap-2">
