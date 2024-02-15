@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 // import { FaTimes } from "react-icons/fa";
 // import { AiOutlineMenu } from "react-icons/ai";
 
@@ -8,12 +8,23 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+
+  const navigate = useNavigate(false);
+  const navigate2 = useNavigate(false);
+
+  const handleNext = () => {
+    navigate("/bloggrid");
+  };
+
+  const handleNext2 = () => {
+    navigate2("/blogdetail");
+  };
   return (
     <div className="bg-[#F8F9FA] nav">
       <div className="lg:flex hidden justify-between items-center xl:w-[90%] py-2 lg:w-[95%] m-auto">
         <div className="flex items-center gap-4">
           <div>
-            <img className="h-[55px]" src="assets/logo.png" alt="" />
+            <img className="h-[55px]" src="assets/img/loogo.png" alt="" />
           </div>
           <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
@@ -82,9 +93,13 @@ function Navbar() {
           </NavLink>
           <div class="dropdown">
             <button class="dropbtn  ">Pages</button>
-            <div class="dropdown-content mt-8 ml-[-15px]">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+            <div class="dropdown-content  ml-[-15px]">
+              <a onClick={() => handleNext()} href="#">
+                Blog Grid
+              </a>
+              <a onClick={() => handleNext2()} href="#">
+                Blog Detail
+              </a>
             </div>
           </div>
           <NavLink
@@ -104,12 +119,12 @@ function Navbar() {
           <button className="but px-7 p-2">Join Class</button>
         </div>
       </div>
-      <div className=" lg:hidden items-center px-5 py-3 flex Menu justify-between">
-        <div className="flex gap-3 items-center">
+      <div className=" lg:hidden items-center md:px-5 px-2 py-3 flex Menu justify-between">
+        <div className="flex items-center gap-4">
           <div>
-            <img className="h-[55px]" src="assets/img/logo.png" alt="" />
+            <img className="h-[55px]" src="assets/img/loogo.png" alt="" />
           </div>
-          <div className=" ">
+          <div>
             <p className="text-[#17a2b8] text-[50px] Kind">KidKinder</p>
           </div>
         </div>

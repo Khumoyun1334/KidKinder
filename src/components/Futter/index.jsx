@@ -138,7 +138,7 @@ function Futter() {
               style={{ transition: "all .3s" }}
               className=" w-full h-[57px] text-white rounded-[30px] bg-[#17A2B8] hover:bg-[#138496]"
             >
-              Submit Now{" "}
+              Submit Now
             </button>
           </div>
         </div>
