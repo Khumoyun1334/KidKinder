@@ -2,9 +2,6 @@ import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import React from "react";
 import CartStyle from "./CartStyle";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Pagination from "react-bootstrap/Pagination";
-import "bootstrap/dist/js/bootstrap.bundle";
 function BlogCard() {
   const data = [
     {

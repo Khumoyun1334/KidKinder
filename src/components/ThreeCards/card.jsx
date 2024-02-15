@@ -3,15 +3,12 @@ import React from "react";
 function Card({ title }) {
   return (
     <div>
-      <div className="Cards xl:w-[365.6px] lg:w-[300px] bg-[#F8F9FA] h-[642.92px] rounded shadow-md overflow-hidden">
-        <div className="w-full h-auto ">
+      <div className="xl:w-[365.6px] w-[100%] lg:w-[300px] bg-[#F8F9FA] rounded shadow-md pb-10">
+        <div className="w-full">
           <img className="img w-full" src="assets/img/class-1.jpg" alt="" />
         </div>
         <div>
-          <p
-            style={{ fontFamily: "Handle,cursive" }}
-            className="text-[24px] text-[#0394F] mt-4"
-          >
+          <p className="font-[handlee] text-[24px] font-extrabold text-[#0394F] mt-4">
             {title}
           </p>
         </div>
@@ -21,15 +18,31 @@ function Card({ title }) {
             duo et no et, ipsum ipsum erat duo amet clita duo
           </p>
         </div>
-        <div className="grid grid-cols-2 justify-items-center md:px-2 xl:px-20 lg:px-0 px-56 text-start">
-          <div>Age of kids</div>
-          <div>3 - 6 Years</div>
-          <div>Total Seats</div>
-          <div>40 Seats</div>
-          <div>Class Time</div>
-          <div>08:00 - 10:00</div>
-          <div>Tution Fee</div>
-          <div>$290 / Month</div>
+        <div className="grid grid-cols-2 gap-x-8 xl:gap-x-0 -ml-10 justify-items-center md:px-2 xl:px-20 lg:px-0 text-center">
+          <div className="w-full text-end font-bold text-[#666666] border-b-[1px] xl:ml-0 ml-16 pl-10 xl:pl-0 pr-4">
+            Age of kids
+          </div>
+          <div className="w-full text-start font-normal text-[#666666] border-l-[1px] xl:pl-1 xl:ml-5 border-b-[1px]">
+            3 - 6 Years
+          </div>
+          <div className="w-full text-end font-bold text-[#666666] border-b-[1px] ml-16 pl-10 xl:pl-0 xl:ml-0 pr-4">
+            Total Seats
+          </div>
+          <div className="w-full  text-start font-normal text-[#666666] border-l-[1px] pl-6 xl:pl-1 xl:ml-5 border-b-[1px]">
+            40 Seats
+          </div>
+          <div className="w-full text-end font-bold text-[#666666] border-b-[1px] ml-16 pl-10 xl:pl-0 xl:ml-0 pr-4">
+            Class Time
+          </div>
+          <div className="w-full  text-start font-normal text-[#666666] border-l-[1px] pl-6 xl:pl-1 xl:ml-5 border-b-[1px]">
+            08:00 - 10:00
+          </div>
+          <div className="w-full text-end font-bold text-[#666666] border-b-[1px] ml-16 pl-10 xl:pl-0 xl:ml-0 pr-4">
+            Tution Fee
+          </div>
+          <div className="w-full  text-start font-normal text-[#666666] border-l-[1px] pl-6 xl:pl-1 xl:ml-5 border-b-[1px]">
+            $290 / Month
+          </div>
         </div>
 
         <br />

@@ -1,6 +1,6 @@
 import React from "react";
 import ThreeCards from "../../components/ThreeCards";
-import Form from "../../components/Form";
+// import Form from "../../components/Form";
 import Bannerteal from "../../components/Banner";
 
 function Clasess() {
@@ -11,7 +11,6 @@ function Clasess() {
           <Bannerteal title="Classes" />
           <ThreeCards />
           <br />
-          <Form />
         </div>
       </div>
     </div>
