@@ -189,6 +189,20 @@
   /* background: #ff0000; */
   color: #ff0;
 }
+
+.but10 {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+}
+
+.inpcc {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.gguu {
+  font-family: "Handlee", cursive;
+}
+
 @media screen and (min-width: 999px) {
   .card__media {
     margin-top: -10px;

@@ -1,0 +1,6 @@
+@media screen and (max-width:100px) {
+    .detail__container {
+        display: grid;
+        margin: auto;
+    }
+}
